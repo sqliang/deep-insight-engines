@@ -1,0 +1,23 @@
+{
+  "skill_name": "repo-insight",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我分析这个 GitHub 仓库：https://github.com/facebook/react",
+      "expected_output": "克隆 react 仓库，生成 reports/ 目录包含 repo_overview.md、draft_tree.md、architecture.md、final_tree.md、comments_draft.md、final_report.md，以及 README-CN.md（如需要）和带中文注释的源代码",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "分析当前目录的代码",
+      "expected_output": "在当前目录下生成 reports/ 目录，包含完整的分析报告文件，翻译 README 为中文（如需要），并为源代码添加中文注释",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "请深度解读这个仓库的架构和业务逻辑：https://github.com/vuejs/vue",
+      "expected_output": "克隆 vue 仓库，执行完整的 5 阶段分析流程，生成所有报告文件，提供中文翻译和注释",
+      "files": []
+    }
+  ]
+}
