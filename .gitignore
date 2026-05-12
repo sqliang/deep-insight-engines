@@ -1,3 +1,9 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# macOS
+**/.DS_Store
+
+# Environment files (only commit .env.example)
+.env
